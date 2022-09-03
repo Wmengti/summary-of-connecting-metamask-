@@ -29,8 +29,8 @@ open http://127.0.0.1:8080
   <script src="./dist/bundle.js" type="text/javascript"></script>
 ```
 
-- When using the code below,`connect` can work ,but `freemint` show that _index.js:23 Uncaught (in promise) ReferenceError: Cannot access 'ethers' before initialization_
-  using yarn build=>bundle.js can in advance load the code of ethers
+When using the code below,`connect` can work ,but `freemint` show that _index.js:23 Uncaught (in promise) ReferenceError: Cannot access 'ethers' before initialization_
+using yarn build=>bundle.js can in advance load the code of ethers
 
 ```
 <body>
